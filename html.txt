@@ -1,0 +1,124 @@
+<html>
+<head>
+<title>ACHIEVEMENTS-1ST</title>
+
+<style>
+nav		{
+		position:relative;
+		background-color: #671B6D;
+		display:vertical;
+		overflow:hidden;
+		border-radius:12px;
+		}
+
+footer	{
+		position:relative;
+		background-color: #671B6D;
+		display:vertical;
+		overflow:hidden;
+		border-radius:12px;
+		}
+
+ul 		{
+      		list-style-type: none;
+      		margin: 0;
+      		padding: 0;
+      		overflow: hidden;
+    		}
+
+li		{
+		float: left;
+		font-color: white;
+		font-family: Comic Sans MS;
+		font-size: 35;
+		margin-top: 9px;
+		}
+
+li a 		{
+      		display: block;
+      		color: white;
+      		text-align: center;
+      		padding: 14px 16px;
+      		text-decoration: none;
+    		}
+
+li:hover	{
+		background-color:#671B6D ;
+		font-size:35;
+		font-family:Comic Sans MS;
+		font-color:white;
+		}
+
+.li1		{
+		margin-top:11px;
+		}
+
+.li4		{
+		margin-top:6px;
+		margin-left:5px;
+		}
+
+.li2           {
+		float:left;
+		font-family: Comic Sans MS;
+		font-color: white;
+		text-align: center;
+		display: block 20px;
+		margin-top:32px;
+		margin-left: 10px;
+		}
+
+.dropdown 	{
+			display:inline-block;
+			}
+
+ .content		{
+    			display: none;
+      			position: fixed;
+      			background-color: #967bb6;
+      			min-width: 160px;
+			border-radius:10px;
+    			}
+
+ .dropdown:hover .content     {
+   		   				display: inline;
+    						}
+p.para-head	{
+			font-family:Cooper Black;
+			}
+
+div.text		{
+			font-family:Comic Sans MS;
+			}
+</style>
+<body>
+
+<nav class="pearnav" border-radius="10px">
+	<ul>
+		<li><font color="#671B6D">..</font></li>
+		<li class="li1"><img src="pearlogo.png" width="75px" margin-left="10px"></li>
+		<li><a href="PEARLWEBINTRO.html">INTRODUCTION</a></li>
+		<li class="dropdown"><a href="">ACHIEVEMENTS</a>
+			<div class="content">
+				<a href="achievement1.html">1ST QUARTER</a>
+				<a href="">2ND QUARTER</a>
+				<a href="">3RD QUARTER</a>
+		</li>
+		<li class="dropdown"><a href="">TEACHERS</a>
+			<div class="content">
+				<a href="teacher-men.html">MEN</a>
+				<a href="teacher-women.html">WOMEN</a>
+		</li>
+		<li class="dropdown"><a href="">PEOPLE</a>
+			<div class="content">
+				<a href="">ADVISERS</a>
+				<a href="">OFFICERS</a>
+				<a href="">STUDENTS</a>
+		</li>
+		<li class="li2">
+			<form action="/action_page.php">
+      				<input type="text" placeholder="Search..." name="search" size="36" style="height:30px" margin-top="15px"> 
+		</li>
+		<li class="li4"><a href=""><img src="_______1_-removebg-preview.png" width="60px" margin-left="20px"></a></li>
+	</ul>
+</nav>
